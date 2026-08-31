@@ -36,6 +36,8 @@ footer {
 	flex-wrap: wrap;
 	background-color: #000;
 	align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation li {

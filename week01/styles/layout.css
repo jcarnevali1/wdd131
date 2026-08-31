@@ -19,6 +19,7 @@ main {
 .right-sidebar {
   background: #fff;
   grid-column: 3 / 4;
+  padding: 1rem;
 }
 
 footer {
@@ -27,10 +28,6 @@ footer {
   text-align: center;
   grid-column: 1 / 4;
   color: #fff;
-}
-
-.right-sidebar {
-  padding: 1rem;
 }
 
 .navigation {

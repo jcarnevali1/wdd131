@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="description" content="Jean Franco Carnevali | WDD131 - Dynamic Web Fundamentals | Home Page">
+    <meta name="author" content="Jean Franco Carnevali">
+    <title>WDD 131 | Jean Franco Carnevali</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Jean Franco</h1>
+    <header>
+        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="https://www.linkedin.com/in/jean-f-carnevali-2570223b9/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="">Scripture</a>
+            <a href="">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Jean Franco Carnevali Rodriguez</h1>
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="description">
+                <p>My name is Jean Franco. I was born in Caracas, Venezuela but when I was still very young we moved to Bogotá, Colombia. I'm 16 years old and I like programming, UI design and playing videogames or football (soccer). I want to get a job related to this field in the future as I really like doing this. I'm also hoping to get a bachelor's degree from this career!</p>
+                <img class="profile" src="images/profile.jpg" alt="Hey, my name is Jean Franco Carnevali!">
+            </div>
+
+        <div class="location">
+            <h3>Bogotá, Colombia</h3>
+
+            <div class="country">
+                <figure>
+                    <img class="flag" src="images/colombia-flag.webp" alt="Flag of Colombia">
+                    <figcaption>Flag of Colombia</figcaption>
+                </figure>
+                <p>Colombia is a biodiverse country in northwestern South America with coastlines on both the Pacific Ocean and the Caribbean Sea.  Around 52 million people live in Colombia, making it a major Spanish-speaking nation. Traditions blend Indigenous, Spanish colonial, and African roots. The nation is globally recognized for coffee, emeralds, and flowers.</p>
+            </div>
+        </div>
+        </section>
+            
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+
+            <div class="resources">
+                <ul>
+                    <li><a href="#">Dev.to Community</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">CSS Tricks</a></li>
+                    <li><a href="#">W3 Schools</a></li>
+                    <li><a href="#">Udemy</a></li>
+                    <li><a href="#">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Jean Franco Carnevali - Bogotá, Colombia</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

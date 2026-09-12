@@ -1,0 +1,29 @@
+@media screen and (min-width: 640px) {
+
+    main {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+    }
+
+    h1 {
+        grid-column: 1 / -1;
+    }
+    
+    .menu-navigation {
+        flex-direction: row;
+    }
+
+    .menu-navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    header span {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

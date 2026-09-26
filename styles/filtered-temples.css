@@ -53,8 +53,8 @@ header {
 }
 
 .gallery img {
-    width: 100%;
     height: auto;
+    width: 100%;
     display: block;
     margin-top: 1.2rem;
 }
@@ -188,7 +188,6 @@ footer {
 
     .gallery img {
         object-fit: cover;
-        width: 100%;
         height: auto;
         aspect-ratio: auto;
     }

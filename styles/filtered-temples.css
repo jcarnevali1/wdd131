@@ -29,6 +29,13 @@ header {
     font-weight: 400;
 }
 
+.gallery img {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-top: 1.2rem;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -50,13 +57,6 @@ header {
     text-align: center;
     padding: 1.3rem;
     background-color: #ececec;
-}
-
-.gallery img {
-    height: auto;
-    width: 100%;
-    display: block;
-    margin-top: 1.2rem;
 }
 
 .hide {

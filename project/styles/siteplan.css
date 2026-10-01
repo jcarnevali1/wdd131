@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #3E6AE1;
+    --background-color: #fff;
+    --secondary-color: #000;
+}
+
+body {
+    margin: 50px;
+    font-family: "Work Sans", sans-serif;
+    background-color: var(--accent-color);
+    color: #000;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jean Franco Carnevali | WDD 131 | Week 05">
+    <meta name="description" content="Jean Franco Carnevali | WDD 131 | Week 05 Assignment | Product Review Form">
     <meta name="author" content="Jean Franco Carnevali">
     <title>Form | WDD 131 | Week 05 Assignment | Jean Franco Carnevali</title>
     <link rel="stylesheet" href="styles/form.css">
@@ -21,7 +21,7 @@
         <form method="get" action="review.html">
             <label for="product">Product Name *</label>
             <select id="product" name="product" required>
-                <option value="">Select A Product...</option>
+                <option value="" disabled selected>Select A Product...</option>
             </select>
 
             <p>Overall Rating *</p>
@@ -32,6 +32,9 @@
                 <input type="radio" id="twostar" name="rating" value="2" required><label for="twostar"></label>
                 <input type="radio" id="onestar" name="rating" value="1" required><label for="onestar"></label>
             </div>
+
+            <label for="installation">Date of Installation *</label>
+            <input type="date" id="installation" name="installation" required>
 
             <p>Which features did you find useful in the product? (Check All That Apply)</p>
             <label for="durability">

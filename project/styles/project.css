@@ -136,60 +136,42 @@ header img {
     max-width: 380px;
 }
 
-.main-button {
-    background-color: var(--primary-color);
-    color: var(--background-color);
+.main-button,
+.secondary-button,
+.third-button,
+.vehicles-button {
     font-size: 15px;
     font-weight: 500;
     display: flex;
     border-radius: 5px;
-    width: 200px;
     height: 43px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+.main-button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    width: 200px;
 }
 
 .secondary-button {
     background-color: var(--background-color);
     color: var(--secondary-color);
-    font-size: 15px;
-    font-weight: 500;
-    display: flex;
-    border-radius: 5px;
     width: 200px;
-    height: 43px;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
 }
 
 .third-button {
     background-color: var(--secondary-color);
     color: var(--background-color);
-    font-size: 15px;
-    font-weight: 500;
-    display: flex;
-    border-radius: 5px;
     width: 200px;
-    height: 43px;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
 }
 
 .vehicles-button {
     background-color: var(--primary-color);
     color: var(--background-color);
-    font-size: 15px;
-    font-weight: 500;
-    display: flex;
-    border-radius: 5px;
     width: 170px;
-    height: 43px;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
 }
 
 
